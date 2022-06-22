@@ -1,8 +1,10 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class FormTests extends TestBase {
+    @DisplayName("demoqa app form test")
     @Test
     void successfulTest() {
         formPage.openPage()

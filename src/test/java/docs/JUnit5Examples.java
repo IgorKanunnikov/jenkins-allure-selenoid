@@ -26,10 +26,11 @@ public class JUnit5Examples {
         System.out.println("========= Started firstTest");
     }
 
+    @DisplayName("Example JUnit5 test")
     @Test
     void secondTest() {
         System.out.println("========= Started secondTest");
-        assertEquals(2, 3);
+        assertEquals(3, 3);
     }
 
     @AfterEach
