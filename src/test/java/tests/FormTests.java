@@ -1,9 +1,13 @@
 package tests;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class FormTests extends TestBase {
+    @Tag("form")
+    @Owner("IgorK")
     @DisplayName("demoqa app form test")
     @Test
     void successfulTest() {
